@@ -23,7 +23,7 @@ public class StandardCalculatorTest {
     @DisplayName("Test Addition of Two Integers")
     void testAdditionOperation(){
         standardCalculator.add(1,1);
-        int actualResult = standardCalculator.getResult();
+        int actualResult = (int) standardCalculator.getResult();
         Assertions.assertEquals(2, actualResult);
     }
 
@@ -31,7 +31,7 @@ public class StandardCalculatorTest {
     @DisplayName("Test Substraction of Two Integers")
     void testSubtractionOperation(){
         standardCalculator.subtract(1,1);
-        int actualResult = standardCalculator.getResult();
+        int actualResult = (int) standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
 
@@ -54,7 +54,7 @@ public class StandardCalculatorTest {
         int expectedResult = 2;
         //Act
         standardCalculator.divide(4,2);
-        int actualResult = standardCalculator.getResult();
+        int actualResult =  standardCalculator.getResult();
         //Assert
         Assertions.assertEquals(expectedResult, actualResult);
     }
