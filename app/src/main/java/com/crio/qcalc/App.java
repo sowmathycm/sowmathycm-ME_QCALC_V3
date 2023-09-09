@@ -3,15 +3,6 @@
  */
 
 
-package com.crio.qcalc;
-
-public class App {
-
-    public String getGreeting() {
-
-        return "Hello World!";
-
-    }
 
 
 
@@ -43,12 +34,21 @@ public class App {
 }
 */
 
-}
+
 
 /* ------------------------------------- */
 
 
 
+package com.crio.qcalc;
+
+public class App {
+
+    public String getGreeting() {
+
+        return "Hello World!";
+
+    }
 
 
 public static void main(String[] args) {
@@ -57,9 +57,12 @@ public static void main(String[] args) {
 
     ScientificCalculator calc = new ScientificCalculator();
 
-    double result= calc.cubeOf(4.0);
+    double result = calc.cubeOf(4.0);
+    int  result1 = calc.modulo(5,2);
 
     System.out.println("cube =" + result);
+    System.out.println("modulo =" + result1);
+    
 
 }
 
