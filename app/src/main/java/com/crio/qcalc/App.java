@@ -3,8 +3,6 @@
  */
 
 
-
-
 package com.crio.qcalc;
 
 public class App {
@@ -14,7 +12,11 @@ public class App {
         return "Hello World!";
 
     }
-public static void main(String[] args) {
+
+
+
+
+/*public static void main(String[] args) {
 
     System.out.println("Starting QCalc..");
 
@@ -39,7 +41,7 @@ public static void main(String[] args) {
 
 
 }
-
+*/
 
 }
 
@@ -49,8 +51,6 @@ public static void main(String[] args) {
 
 
 
-
-/* 
 public static void main(String[] args) {
 
     System.out.println(new App().getGreeting());
@@ -64,4 +64,3 @@ public static void main(String[] args) {
 }
 
 }
-*/
